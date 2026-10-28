@@ -1,38 +1,47 @@
-# Kimi Starter Kit
+# Kimi K3.1 Pro Creator Starter Kit
 
-A public, mobile-friendly follow-up to The AGI Guide's Kimi Space Race ad.
+A public, mobile-friendly companion to The AGI Guide's Kimi ad, styled after The AGI Edge.
 
-## Audience deliverable
+## Audience outcome
 
-- Three copyable prompts: Space Explorer, a first website, and a research brief.
-- A working, self-contained HTML Space Explorer, with planet selection, pause, speed, and reset controls.
-- Downloadable ZIP with the HTML project, prompt pack, walkthrough, and MIT license.
-- A live demo for mobile visitors.
+One rough content idea becomes an approved 30-second Reel script, a six-shot filming plan, and a caption through a suggested ten-minute drafting workflow.
 
-Design follows The AGI Edge: Geist typography, white and warm-gray surfaces, large tight headings, rounded controls, and subtle borders.
+- Three copyable prompts with explicit placeholders and expected outputs.
+- A brief form personalizes all three prompts locally; it sends no data to Kimi or a server.
+- One-click sample brief, full keyboard tab controls, and clipboard fallback.
+- Downloadable prompt pack, ten-minute worksheet, and a complete editorial worked example.
+- Public reading, personalization, copying, and downloads require no account.
 
-## Local preview
+Kimi is a separate service; this kit does not claim free K3.1 Pro access, a trial, or unlimited usage. See SOURCES.md for the official setup sources reviewed on October 28, 2026.
 
-Serve `dist/` with any static HTTP server, e.g. `python3 -m http.server 8787 --directory dist`.
+## Preview
 
-There is no build step. The main page uses Google Fonts with local fallback fonts; the downloadable demo has no external dependencies.
+Serve `dist/` with any static HTTP server:
+
+```
+python3 -m http.server 8787 --directory dist
+```
+
+There is no build step or backend. The site uses Google Fonts with local fallbacks. Inputs stay in memory until the page is closed or reloaded.
 
 ## Campaign destination
 
-Every Kimi link uses this exact URL, including intentionally empty UTM values:
+All three conversion links use the exact supplied URL, including intentionally empty UTM values:
 
 ```
 http://kimi.ai?utm_campaign=TR_YqObYt0Y&utm_content=&utm_medium=Instagram&utm_source=CH_pzQ7f4g6&utm_term=
 ```
 
-`dist/app.js` defines the canonical value. HTML anchors also contain it so links work without JavaScript. When updating the destination, update both the JS constant and all HTML anchors, then rebuild the ZIP if the demo changes.
+`dist/app.js` defines the canonical destination. HTML anchors also contain it so links work without JavaScript. When updating the campaign, update both locations. Official-source citations point directly to Kimi documentation; they are informational links rather than conversion buttons.
 
-## Hosting and source
+## Downloads
 
-The Sites production configuration is in `.openai/hosting.json`. Source is mirrored to this GitHub repository for review and editing. A GitHub push alone does not deploy this Site; a matching source revision must also be saved and published through Sites.
+The ZIP in `dist/` contains the three prompt templates, a worksheet, a worked example, and the MIT license. The worked example was written for this guide; it is not a recorded Kimi session or a promise of identical output. Regenerate `dist/prompts.txt` from the `prompts` object in `dist/app.js` and rebuild the ZIP after template changes.
 
-## Scope
+## Hosting and GitHub
 
-This kit does not require an email gate or API key. It does not install or modify Instagram DM automation. It is an independent guide, not official Kimi documentation. The starter is original to this guide, rather than a claim to reproduce the exact ad project. The orbital scene is illustrative and not to scale.
+Production configuration is in `.openai/hosting.json`. Source is mirrored to this GitHub repository. A GitHub push alone does not deploy the Site. Save and publish the matching source revision through Sites after editing.
 
-MIT licensed. Kimi and The AGI Edge branding remain associated with their respective owners.
+This website does not modify Instagram or ManyChat automation. Use the public production URL as that automation's destination.
+
+MIT licensed. Independent guide; not official Kimi documentation.

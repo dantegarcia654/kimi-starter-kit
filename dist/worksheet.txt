@@ -1,0 +1,57 @@
+KIMI K3.1 PRO STARTER KIT — YOUR TEN-MINUTE CONTENT PROJECT
+The AGI Edge / The AGI Guide
+
+FINISH LINE
+One approved 30-second Reel script, six practical shots, and one caption.
+Ten minutes is a suggested drafting budget; filming, editing, and response
+latency are separate.
+
+QUICK START
+Open Kimi with the campaign link below. Follow any account prompts shown.
+Kimi confirms K3.1 Pro web/mobile availability. Use it where your account
+offers it. Start a new chat, then run the three prompts in order.
+This guide is free and makes no promise of free K3.1 Pro access or a trial.
+
+http://kimi.ai?utm_campaign=TR_YqObYt0Y&utm_content=&utm_medium=Instagram&utm_source=CH_pzQ7f4g6&utm_term=
+
+MINUTES 0–2 / WRITE YOUR BRIEF
+Rough idea: ____________________
+Audience: ____________________
+Viewer's next step: ____________________
+Tone: ____________________
+Verified facts to include (or none): ____________________
+Location and available props: ____________________
+Required sponsorship disclosure (if applicable): ____________________
+
+MINUTES 2–5 / SCRIPT
+Run prompt 01 from prompts.txt. Read it aloud.
+Does the hook name a specific useful idea?
+Does it sound like you? Does it fit 30 seconds when spoken naturally?
+Check factual claims and edit before approving.
+Approved script: ____________________
+
+MINUTES 5–8 / SHOT LIST
+In the same chat, run prompt 02 using the approved script.
+Check that six shots cover every spoken line, total 30 seconds without
+any gaps or overlaps, and can be filmed with your listed setup.
+Shot list saved: ____________________
+
+MINUTES 8–10 / CAPTION
+Run prompt 03 with the approved script and your intended next step.
+Check the opening line, factual claims, and any required disclosure.
+Make the call to action one you can actually fulfill.
+Caption saved: ____________________
+
+BEFORE FILMING
+[ ] Script read aloud and timed.
+[ ] Every claim checked or removed.
+[ ] All six shots achievable with available location and props.
+[ ] Caption matches the content and next step.
+[ ] Required disclosure included where applicable.
+
+SETUP SOURCES / CHECKED OCTOBER 28, 2026
+https://www.kimi.com/en/blog/kimi-k3-1-pro
+https://www.kimi.com/
+
+More guides: https://theagiedge.com
+Source: https://github.com/dantegarcia654/kimi-starter-kit
